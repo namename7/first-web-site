@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>나미의 일드 감상 저장소</title>
+    <style>
+
+      h1{
+        font-size: 300%;
+        text-align: center;
+        color: purple;
+      }
+      .saw{
+        color: brown;
+      }
+      .saw2{
+        color: yellow;
+      }
+      .saw3{
+        color: cyan;
+      }
+      #active{ /* id선택자는 제일 강함*/
+        color: grey;
+      }
+      a {
+        color: blue;/* 태그 < class < id 선택자 강함 순위  그레서 색 블루가 아님 */
+        text-decoration: none;
+         }
+        h2 {/* 원래 ol태그 안의 ul 태그를 썻지만 안되서 지우고 1.2. 등 붙이고 h2하니깐 박스 만들어짐 a태그는 h2태그 안쪽으로 넣음*/
+           border: 3px solid pink;
+           padding: 5px;
+           display: inline;
+
+         }
+    </style>
+  </head>
+  <body>
+    <h1>나미의 일드 저장소</h1>
+    <p>안녕하세요 저는 프론트 엔드를 꿈꾸는 꿈나무입니다. 제가 처음으로 만들어 볼 웹페이지는 일드 저장소입니다. 왜냐하면 저는 먹방,여행,추리 일드를 보는 취미가 있거든요.
+        처음 만드는 사이트인데 어떤걸 하지 고민하다가 제가 관심있는 취미를 이용한 사이트를 만드는게 좋을것 같아 이렇게 만들게 되었어요.  제가 여태 본 일드를 소개하고 추천하는
+        사이트로 제 나름대로 드라마에 대한 개인적인 후기 글도 있으니 즐겁게 즐겨 주셨으면 합니다.처음 만드는 사이트여서 많이 허접하겠지만 들려 주셔서 감사합니다.  </p>
+
+    <h2><a href="2-1.html" target="_brank" title="음식 일드">음식 일드</a></h2>
+           <ul>
+           <li >고독한 미식가</li>
+           <li>심야식당</li>
+           </ul>
+    <h2><a href="2-2.html" target="_brank" class="saw2" >여행 일드</a></h2>
+           <ul>
+           <li>제츠메시로드</li>
+           <li>혼자 캠프에서 먹고 자다</li>
+           <li>일본 낡은 숙소 기행</li>
+           </ul>
+    <h2><a href="2-3.html" target="_brank" class="saw3" >추리 일드</a></h2>
+           <ul>
+           <li>파트너</li>
+           <li>긴급취조실</li>
+           <li>콜드케이스</li>
+           <li>살인분석반</li>
+           <li>당신 차례입니다.</li>
+           <li>언페어</li>
+           </ul>
+    <h2><a href="2-4.html" target="_brank" id="active">옛날 일드</a></h2>
+           <ul>
+           <li>롱베케이션</li>
+           <li>러브제너레이션</li>
+
+           </ul>
+    <h2><a href="2-5.html" target="_brank"  class="saw" >음식과 여행 그 어딘가의 힐링 일드</a></h2>
+           <ul>
+           <li></li>
+           <li></li>
+           <li></li>
+           </ul>
+
+  </body>
+</html>
