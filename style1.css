@@ -1,0 +1,27 @@
+h1{
+font-size: 300%;
+text-align: center;
+color: purple;
+}
+.saw{
+color: brown;
+}
+.saw2{
+color: yellow;
+}
+.saw3{
+color: cyan;
+}
+#active{ /* id선택자는 제일 강함*/
+color: grey;
+}
+a {
+color: blue;/* 태그 < class < id 선택자 강함 순위  그레서 색 블루가 아님 */
+text-decoration: none;
+}
+h2 {/* 원래 ol태그 안의 ul 태그를 썻지만 안되서 지우고 1.2. 등 붙이고 h2하니깐 박스 만들어짐 a태그는 h2태그 안쪽으로 넣음*/
+ border: 3px solid pink;
+ padding: 5px;
+ display: inline;
+
+}
